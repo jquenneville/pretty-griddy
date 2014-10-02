@@ -31,6 +31,13 @@ div#sidebar {
   height: 1000px;
 }
 
+ div#right-content {
+  margin-right: 280px;
+  background-color: grey;
+  width: 1152px;
+  height: auto;
+ }
+
 /*----------------------------------------------------------------------------
     HOVER
 ----------------------------------------------------------------------------*/
@@ -47,26 +54,34 @@ a {
     left: 0;
     right: 0;
     background-color: rgba(0,0,0,0.3);
-    color: #f90;
+    color: #EF4645;
     font-weight: bold;
     line-height: 1.1em;
-    -webkit-transition: all 0.5s linear;
-    -o-transition: all 0.5s linear;
-    -ms-transition: all 0.5s linear;
-    -moz-transition: all 0.5s linear;
-    transition: all 0.5s linear;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+.caption p{
+    margin: 140px;
 }
 a:hover .caption {
     opacity: 1;
-    -webkit-transition: all 0.5s linear;
-    -o-transition: all 0.5s linear;
-    -ms-transition: all 0.5s linear;
-    -moz-transition: all 0.5s linear;
-    transition: all s linear;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    transition: all 0.2s linear;
 }
 .row_1 {
   padding: 0;
   margin: 0;
+}
+.img_link {
+  padding: 0;
+  margin: 0;
+  float: right;
 }
 /*----------------------------------------------------------------------------
     imported
