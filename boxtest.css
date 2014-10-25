@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* CSS Document */
+/*same dimensions as the image*/
+
+body {
+	font: 14px "Courier New", Courier, mono;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+.imgWrap {
+	position: relative;
+	height: 300px;
+	width: 384px;
+	float: left;
+}
+
+.imgDescription {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(125, 125, 125, 0.75);
+	color: #fff;
+	margin-top: 0px;
+	padding-top: 0px;
+	
+	visibility: hidden;
+	opacity: 0;
+	
+	/*remove comment if want transitition
+	-webkit-transition: visibility opacity 0.2s;*/
+}
+
+.imgWrap:hover .imgDescription {
+	visibility: visible;
+	opacity: 1;
+}
+
+a {
+	text-decoration: none;
+	color: orange;
+}
