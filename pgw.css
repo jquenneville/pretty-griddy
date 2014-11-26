@@ -24,7 +24,7 @@ a {
 ----------------------------------------------------------------------------*/
 
 div#sidebar {
-  background-image: url('sidebar.png');
+  background-image: url('../images/sidebar.png');
   position: absolute;
   background-color: grey;
   width: 280px;
@@ -37,6 +37,7 @@ div#sidebar {
   width: 1152px;
   height: auto;
  }
+
 
 .image-thumbnail {
   opacity: 1;
